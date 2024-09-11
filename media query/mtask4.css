@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    padding: 10px;
+    
+}
+
+
+.content {
+    margin: 10px;
+    height: 200px;
+    background-color: rgb(55, 154, 187);
+}
+
+.group {
+    margin: 10px;
+
+}
+
+
+ 
+img {
+    /* margin: 10px; */
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    float: left;
+} 
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .group {
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+        height: 150px;
+    }
+    
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .group{
+        height: 200px;
+    }
+    img {
+        height: 100px;
+        width: 50%;
+        background-origin: content-box;
+    }
+
+    
+}

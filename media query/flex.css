@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    /* width: 20%; */
+}
+.box2{
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    /* width: 20%; */
+}
+.box3{
+    background-color:indigo;
+    height: 100px;
+    width: 200px;
+    /* width: 20%; */
+}
+.box4{
+    background-color:brown;
+    height: 100px;
+    width: 200px;
+    /* width: 20%; */
+}
+.box5{
+    background-color: palevioletred;
+    height: 100px;
+    width: 200px;
+    /* width: 20%; */
+}
+@media only

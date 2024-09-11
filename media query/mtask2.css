@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+.header{
+    width: 100%;
+    
+}
+.setbox1{
+    margin: 5px;
+    width: 100%;
+    background-color:rgb(255, 123, 0);
+    height: 100px;
+}
+.setbox2{
+    margin: 5px;
+    width: 100%;
+    background-color:rgb(255, 123, 0);
+    height: 100px;
+}
+.content{
+    margin: 5px;
+    height: 300px;
+    width: 100%;
+    background-color: greenyellow;
+}
+.group{
+    /* margin: 5px; */
+    width: 100%;
+    display: flex;
+}
+.set1{
+    margin: 5px;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.set2{
+    margin: 5px;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.set3{
+    margin: 5px;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.group2{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.group3{
+    /* height: 100px; */
+
+    width: 50%;
+    display: flex;
+
+} 
+.box1{
+
+    margin: 5px;
+    height: 30px;
+    width: 50%;
+    background-color: grey;
+}
+.box2{
+    width:50%;
+    margin: 5px;
+    height: 30px;
+    background-color:grey;
+}
+ .group4{ 
+    width: 50%; 
+    /* flex: 1; */
+    display: flex;
+}  
+.box3{
+    width: 50%;
+    margin: 5px;
+    height: 30px;
+    background-color: grey;
+}
+.box4{
+    width: 50%;
+    margin: 5px;
+    height: 30px;
+    background-color: grey;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+ .main{
+    width: 100%;
+ }   
+    
+   .setbox1{
+    
+height: 50px;
+width: 100%;
+
+
+   }
+   .setbox2{
+    
+    height: 50px;
+    width: 100%;
+   } 
+   .content{
+    
+    height: 100px;
+    width: 100%;
+    
+}
+.group{
+    flex-wrap: wrap;
+}
+.set1{
+    
+    height: 100px;
+    width: 100%;
+}
+.set2{
+    
+    
+    height: 100px;
+    width: 100%;
+}
+.set3{
+    
+    
+    height: 100px;
+    width: 100%;
+}
+.group2{
+    width: 100%;
+    height: 100px;
+    flex-wrap: wrap;
+}
+.group3{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box1{
+     width: 100%;
+    height: 100px;
+}
+.box2{
+    width: 100%;
+   height: 100px;
+}
+.group4{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box3{
+    width: 100%;
+   height: 100px;
+}
+.box4{
+    width: 100%;
+   height: 100px;
+}
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+   .setbox1{
+    
+    
+    height: 50px;
+    width: 100%;
+    background-color:rgb(255, 123, 0);
+   }
+   .setbox2{
+    
+    
+    height: 50px;
+    width: 100%;
+    background-color:rgb(255, 123, 0);
+   }
+   .content{
+    
+    
+    height: 250px;
+    width: 100%;
+    
+}
+.group{
+    flex-wrap: wrap;
+}
+.set1{
+height: 50px;
+width: 100%;
+
+}
+.set2{
+    height: 50px;
+    width: 100%;
+    
+    }
+    .set3{
+        height: 50px;
+        width:100%;
+        
+        }
+
+
+.group2{
+    flex-wrap: wrap;
+}
+.group3{
+
+    width: 100%;
+    
+}
+
+.box1{
+    height:40px;
+    width: 50%;
+}
+.box2{
+    height: 40px;
+    width: 50%;
+}
+ .group4{
+    width: 100%;
+    /* flex-wrap: wrap; */
+} 
+.box3{
+    height: 40px;
+    width:50%;
+}
+.box4{
+    height: 40px;
+    width:50%;
+}
+}
+/* @media only screen and (min-width:769px) and (max-width:1024px){
+.header{
+    display: flex;
+    gap: 10px;
+}
+.setbox1{
+    height: 50px;
+    width: 50%;
+}
+.setbox2{
+    height: 50px;
+    width: 50%;
+    
+}
+.content{
+    
+    height: 300px;
+    width: 100%;
+    
+}
+.group{
+    display: flex;
+}
+.set1{
+
+    height: 150px;
+    
+    
+}
+.set2{
+
+    height: 150px;
+    
+    
+}
+.set3{
+
+    height: 150px;
+    }
+
+/* .group2{
+    flex-wrap: wrap;
+} */
+/* .box1{
+    width: 50%;
+    height: 100px;
+}
+.box2{
+    width: 50%;
+    height: 100px;
+}
+
+.box3{
+    width: 50%;
+    height: 100px;
+}
+
+.box4{
+    width: 50%;
+    height: 100px;
+}
+} */ 
