@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(133, 133, 184);
+    
+}
+
+.mainControl{
+    display: flex;
+    /* width: 100%;
+    height: 300px; */
+    
+}
+
+.leftside{
+    /* height: 450px; */
+    border: 1px solid black;
+    width: 30%;
+    background-color: rgb(201, 150, 158);
+
+    
+}
+.maincontant{
+    border: 1px solid black;
+    width: 50%;
+    background-color: white;
+    /* height: 450px; */
+    
+
+}
+.rightside{
+    border: 1px solid black;
+    width: 30%;
+    background-color:rgb(26, 12, 219);
+    /* padding: 5px; */
+    height: 450px;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(133, 133, 184);
+    /* padding: 10px; */
+}
+
+
+
+ @media only screen and (min-width:320px) and (max-width:480px){
+    .mainControl{
+        flex-wrap: wrap;
+    }
+    .header{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .leftside{
+        height: 200px;
+        width: 100%;
+    }
+    .maincontant{
+        height: 200px;
+        width: 100%;
+    }
+    .rightside{
+        height: 150px;
+        width: 100%;
+    }
+    .footer{
+        height: 100px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+  .mainControl{
+    flex-wrap: wrap;
+    /* height: 300px; */
+    background-color: rgb(245, 245, 83);
+  }
+    .header{
+    height: 100px;
+    width: 100%;
+  }  
+  .leftside{
+    height: 350px;
+    width: 50%;
+    
+  }
+  
+  
+   
+  .rightside{
+    height: 200px;
+width: 100%;
+background-color: white;
+  }
+       
+  .footer{
+    /* padding: 100px; */
+height: 100px;
+width: 100%;
+  } 
+     
+}
+
+ 

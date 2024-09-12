@@ -1,0 +1,31 @@
+body{
+background-color:pink ;
+}
+
+ h1{
+    color:red;
+    font-size: 30px;
+ } 
+.one{
+color: brown;
+font-size: 50pz;
+}
+.two{
+    color: blue;
+    font-size: 50pz;
+}
+
+/* #box{
+    height: 300px;
+    width: 50%;
+    border: 2px solid red;
+    background-color: white; */
+/* } */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+color: blue;
+    font-style: italic;
+}

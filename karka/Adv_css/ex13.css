@@ -1,0 +1,49 @@
+.main{
+    height: 500px;
+    width: 50%;
+}
+header{
+    background-color: lightslategray;
+    height: 50px;
+    text-align: center;
+    text-decoration: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+nav{
+    background-color: gray;
+    height: 30px;
+    text-align: center;
+
+}
+.contain{
+    height: 300px;
+    display: flex; 
+    margin: 2px 2px 2px 2px;
+}
+.box1{
+    background-color: gray;
+    margin:20px;
+    margin: 10px 2px 0px 30px;
+    text-align: center;
+    
+width:45%;
+}
+.box2{
+    background-color: wheat;
+    width: 30%;
+    margin: 10px 0px 2px 8px;
+    text-align: center;
+
+}
+footer{
+    background-color: lightslategray;
+    height: 45px;
+    text-align: center;
+    text-decoration: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px;
+    width: 100%;
+}

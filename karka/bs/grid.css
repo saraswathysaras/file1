@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .row{
+    height: 300px;
+    background-color: green;
+}
+.box1{
+    height: 300px;
+    background-color: yellow;
+
+}
+.box2{
+    height: 300px;
+    background-color: blue;
+
+} */
+
+.parent{
+    height: auto;
+    background-color: pink;
+}
+.child1{
+    height: 200px;
+    background-color: yellow;
+}
+.child2{
+    height: 200px;
+    background-color: lawngreen;
+}
+.child3{
+    height: 200px;
+    background-color: indianred;
+}
+.child4{
+    height: 200px;
+    background-color: indigo;
+}
+.child5{
+    height: 200px;
+    background-color:green;
+}

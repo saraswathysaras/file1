@@ -1,0 +1,23 @@
+.box{
+    height: 300px;
+    width: 25%;
+    border: 2;
+    background-color: blueviolet;
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
+.box3{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url(./images.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.box4{
+    height: 200px;
+    width: 25%;
+    border: 2px solid  black;
+    margin: 50px 20px 25px 40px;
+}

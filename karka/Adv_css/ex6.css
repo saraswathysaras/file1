@@ -1,0 +1,36 @@
+header{
+    background-color: orange;
+    height: 50px;
+    text-align: center;
+    
+    
+}
+.contain{
+    
+    height: 250px;
+    width: 100%;
+    display: flex
+    
+
+
+}
+nav{
+    background-color: blue;
+
+    width: 20%;
+    text-align: center;
+}
+article{
+    background-color: green;
+
+    width: 100%;
+    text-align: center;
+    
+}
+footer{
+    height: 50px;
+    text-align: center;
+    background-color:brown
+    
+    
+}

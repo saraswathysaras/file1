@@ -1,0 +1,7 @@
+console.log("Shanmuga Priya")
+console.log(23)
+console.log("05-12-2000")
+console.log("Scott Christian College")
+console.log(2021)
+console.log("Vadasery")
+console.log(8072593599)

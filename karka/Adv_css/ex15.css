@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.group {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    width: 35%;
+    height: 200px;
+    /* background-color: orange; */
+    padding: 5px;
+}
+
+.parent1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 2px;
+
+}
+
+.child1 {
+    text-align: center;
+    flex: 1;
+    margin: 3px;
+    height: 40px;
+    background-color: blue;
+}
+
+.child2 {
+    text-align: center;
+    margin: 3px;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child3 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child4 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.parent2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 2px;
+    /* justify-content: space-around; */
+}
+
+.child5 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child6 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child7 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.parent3 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 2px;
+}
+
+.child8 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child9 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}
+
+.child10 {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    background-color: blue;
+}

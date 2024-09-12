@@ -1,0 +1,640 @@
+* {
+    margin: 0px;
+    height: 0px;
+}
+
+
+
+.contain {
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.set1 {
+    height: 50px;
+    width: 20%;
+    /* background-color: aqua; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+
+}
+.set1 h2{
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    left: 104px;
+    color: aquamarine;
+}
+
+.set2 {
+    height: 50px;
+    width: 80%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.parent {
+    height: 50px;
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    position: absolute;
+    top: 12px;
+    left: 123px;
+}
+
+.box1 {
+    /* background-color: aqua; */
+    height: 50px;
+    flex: 1;
+}
+
+.box1:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+}
+
+.box2 {
+    /* background-color: palegreen; */
+    height: 50px;
+    flex: 1;
+}
+
+.box2:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+    background-color: aquamarine;
+}
+
+.box3 {
+    /* background-color:aqua; */
+    height: 50px;
+    flex: 1;
+}
+
+.box3:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+}
+
+.box4 {
+    /* background-color: palegreen; */
+    height: 50px;
+    flex: 1;
+}
+
+.box4:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+}
+
+.box5 {
+    /* background-color: aqua; */
+    height: 50px;
+    flex: 1;
+}
+
+.box5:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+}
+
+.box6 {
+    /* background-color: palevioletred; */
+    height: 50px;
+    flex: 1;
+}
+
+.box6:hover {
+    background-color: rgb(36, 197, 143);
+    color: blue;
+}
+
+.setbox {
+    height: 800px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.child0 {
+    position: relative;
+}
+
+.child {
+    /* background-color: white; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 206px;
+    left: 2px;
+    border-radius: 50px;
+    border: 2px solid white;
+    /* color: white; */
+}
+
+.child2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 224px;
+    left: 22px;
+    font-size: 20px;
+}
+
+.child3 {
+    /* background-color: white; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 206px;
+    left: 1284px;
+    border-radius: 50px;
+    border: 2px solid white;
+    /* color: white; */
+}
+
+.child4 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 224px;
+    left: 1305px;
+    font-size: 20px;
+}
+
+.setbox1 {
+    height: 500px;
+    width: 100%;
+    background-image: url(./beach.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+
+}
+
+.setbox1 h1 {
+    position: absolute;
+    top: 165px;
+    left: 537px;
+
+}
+
+.setbox1 h4 {
+    position: absolute;
+    top: 235px;
+    left: 576px;
+}
+
+.setbox1 h5 {
+    position: absolute;
+    top: 263px;
+    left: 655px;
+}
+
+button {
+    position: absolute;
+    top: 322px;
+    left: 605px;
+    height: 35px;
+    width: 15%;
+    background-color: aquamarine;
+}
+
+.setbox2 {
+    height: 300px;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.groups {
+    height: 300px;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blocks {
+    height: 200px;
+    width: 80%;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 {
+    /* margin: 5px 5px 5px 5px; */
+    height: 200px;
+    flex: 1;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.circle1 {
+    position: absolute;
+    top: -19px;
+    left: 85px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    height: 50px;
+    width: 50px;
+}
+
+.img1 {
+    color: aqua;
+    position: absolute;
+    top: 3PX;
+    left: 104px;
+}
+
+.text1 {
+    position: relative;
+}
+
+.text1 h3 {
+    position: absolute;
+    top: 40PX;
+    left: 50px;
+}
+
+.text1 p {
+    position: absolute;
+    top: 125PX;
+    left: 50px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 156PX;
+    left: 64px;
+    height: 37px;
+    width: 54%;
+    background-color: aquamarine;
+}
+.btn1 h5{
+    position: absolute;
+    top: 12px;
+    left: 28px;
+}
+
+.para1 {
+    position: relative;
+}
+
+.para1 p {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 88px;
+    left: 11px;
+}
+
+.block2 {
+    /* margin: 5px 5px 5px 5px; */
+    height: 200px;
+    flex: 1;
+    /* background-color: red; */
+}
+
+.circle2 {
+    position: absolute;
+    top: 530px;
+    left: 451px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    height: 50px;
+    width: 50px;
+}
+
+.img2 {
+    color: aqua;
+    position: absolute;
+    top: 548PX;
+    left: 468px;
+}
+
+.text2 {
+    position: relative;
+}
+
+.text2 h3 {
+    position: absolute;
+    top: 40PX;
+    left: 67px;
+}
+
+.text2 p {
+    position: absolute;
+    top: 125PX;
+    left: 50px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 706PX;
+    left: 439px;
+    height: 37px;
+    width: 9%;
+    background-color: aquamarine;
+}
+.btn2 h5{
+    position: absolute;
+    top: 12px;
+    left: 28px;
+}
+
+.para2 {
+    position: relative;
+}
+
+.para2 p {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 88px;
+    left: 11px;
+}
+
+.block3 {
+    /* margin: 5px 5px 5px 5px; */
+    height: 200px;
+    flex: 1;
+    /* background-color: palegreen; */
+}
+
+.circle3 {
+    position: absolute;
+    top: 528px;
+    left: 702px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    height: 50px;
+    width: 50px;
+}
+
+.img3 {
+    color: aqua;
+    position: absolute;
+    top: 544PX;
+    left: 722px;
+}
+
+.text3 {
+    position: relative;
+}
+
+.text3 h3 {
+    position: absolute;
+    top: 40PX;
+    left: 79px;
+}
+
+.text3 p {
+    position: absolute;
+    top: 125PX;
+    left: 50px;
+}
+
+.btn3 {
+    position: absolute;
+    top: 706PX;
+    left: 682px;
+    height: 37px;
+    width: 9%;
+    background-color: aquamarine;
+}
+.btn3 h5{
+    position: absolute;
+    top: 12px;
+    left: 28px;
+}
+.para3 {
+    position: relative;
+}
+
+.para3 p {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+.block4 {
+    /* margin: 5px 5px 5px 5px; */
+    height: 200px;
+    flex: 1;
+    /* background-color: peru; */
+}
+
+.circle4 {
+    position: absolute;
+    top: 529px;
+    left: 948px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    height: 50px;
+    width: 50px;
+}
+
+.img4 {
+    color: aqua;
+    position: absolute;
+    top: 546PX;
+    left: 970px;
+}
+
+.text4 {
+    position: relative;
+}
+
+.text4 h3 {
+    position: absolute;
+    top: 40PX;
+    left: 66px;
+}
+
+.text4 p{
+    position: absolute;
+    top: 125PX;
+    left: 50px;
+}
+
+.btn4 {
+    position: absolute;
+    top: 706PX;
+    left: 913px;
+    height: 37px;
+    width: 9%;
+    background-color: aquamarine;
+}
+.btn4 h5{
+    position: absolute;
+    top: 12px;
+    left: 28px;
+}
+
+.para4 {
+    position: relative;
+}
+
+.para4 p {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+.setbox3 {
+    height: 400px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox {
+    width: 80%;
+    height: 400px;
+    background-color: ghostwhite;
+    display: flex;
+/* align-items: center; */
+    justify-content: center;
+}
+
+header {
+    width: 80%;
+    height: 30px;
+    /* align-items: center; */
+    /* background-color: blue; */
+    position: relative;
+
+}
+h2{
+    text-align: center;
+}
+
+.parent0 {
+    height: 400px;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* display: flex;
+    /* align-items: center;
+    justify-content: center; * */
+    position: absolute;
+    top: 50px;
+    left: 71px;
+
+
+}
+
+.parent2 {
+    height: 150px;
+    width: 80%;
+    /* background-color: orchid; */
+    display: flex;
+}
+
+.b1 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    /* background-color: cadetblue; */
+    background-image: url(./mountain.jpg);
+    background-size: cover;
+}
+
+.b2 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    background-color: olivedrab;
+    background-image: url(./camara.jfif);
+    background-size: cover;
+}
+
+.b3 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    background-color: orange;
+    background-image: url(./WhatsApp\ Image\ 2024-09-03\ at\ 11.03.04.jpeg);
+    background-size: cover;
+
+}
+
+.parent3 {
+    height: 150px;
+    width: 80%;
+    /* background-color: green; */
+    display:flex ;
+}
+.b4 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    background-color: cadetblue;
+    background-image: url(./vimage.jfif);
+    background-size: cover;
+}
+.b5 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    background-color: cadetblue;
+background-image: url(./dimage.jfif);
+background-size: cover;
+}
+.b6 {
+    margin: 5px 5px 5px 5px;
+    height: 140px;
+    flex: 1;
+    background-color: cadetblue;
+    background-image: url(./flowers.jpg);
+    background-size: cover;
+}
+.parent4 {
+    height: 50px;
+    width: 80%;
+    /* background-color: orchid; */
+    position: relative;
+    
+}
+.btn5{
+    position: absolute;
+    top: 35px;
+    left: 267px;
+    border: 2px solid aqua;
+    width: 23%;
+    height: 40px;
+    background-color: aquamarine;
+    /* text-align: center; */
+}
+.btn5 h5{
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 35px;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.section {
+    height: 500px;
+    width: 100%;
+    background-color: green;
+}
+
+.aside {
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}

@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    height: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.parent{
+    border: 2px solid blue;
+    height: 250px;
+    width: 40%; 
+    border-radius: 20px;
+    /* background-color: blue; */
+    display: inline-block;
+}
+.child1{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 294px;
+    left: 388px;
+    border: 2px solid blue;
+    background-color: black;
+}
+.child2{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 293px;
+    left: 939px;
+    border: 2px solid blue;
+    background-color: black;
+}
+.setbox{
+    height: 250px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+}
+.setbox1{
+    height: 250px;
+    width: 100%;
+    /* background-color: orangered; */
+    position: relative;
+}
+.b1{
+    height: 79px;
+    width: 100%;
+    /* background-color: brown; */
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+}
+.box{
+    /* background-color: green; */
+    width: 20%;
+    height: 125px;
+    position: relative;
+}
+.img{
+    border-radius: 50px;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    background-image: url(./g.jfif);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+.box1{
+    /* background-color: orchid; */
+    width: 50%;
+    height: 125px;
+
+}
+.text{
+height: 50px;
+width: 60%;
+/* background-color: blueviolet; */
+    position: relative;
+    height: 30px;
+width: 100%;
+}
+.text h2{
+    color: white;
+    position: absolute;
+    top:-102px;
+    left: 85px;
+    height: 36px;
+    width: 50%;
+    /* background-color: palegreen; */
+}
+
+.text h5{
+    color: white;
+    position: absolute;
+    top: -72px;
+    left: 97px;
+}
+.b2{
+    height:125px ;
+    width: 100%;
+    /* background-color: yellow; */
+    position: relative;
+}
+.s{
+    /* background-color: aqua; */
+    height: 120px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 17px;
+}
+.s1{
+/* background-color: red; */
+width: 60%;
+height: 88px;
+background-image: url(./verceelimg.jpeg);
+background-size: cover;
+position: absolute;
+top: 15px;
+left: 8px;
+
+}
+.text2{
+    position: relative;
+}
+.text2 h5{
+    position: absolute;
+    top: 92px;
+    left: 19px;
+    color: white;
+}
+.text3{
+    position: relative;
+}
+.i{
+    position: absolute;
+    top: 92px;
+    left: 78px;
+    color: white;
+}
+.text4{
+    position: relative;
+}
+.text4 h5{
+    position: absolute;
+    top: 92px;
+    left: 93px;
+    color: white;
+}
+/* .s2{
+    background-color:olive;
+flex: 1;
+height: 100px;
+} */
+.s3{
+    color: white;
+    /* background-color: green; */
+width: 30%;
+height: 50px;
+position: absolute;
+top: 44px;
+left: 289px;
+}
+.text6{
+    position: relative;
+}
+.text6 h5{
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    color: white;
+}
+.setbox2{
+    height: 250px;
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px dotted white;
+}
+.text7{
+    height: 200px;
+    width: 50%;
+    /* background-color: blue; */
+    position: relative;
+    
+}
+.text7 h2{
+    /* background-color: red; */
+    width: 60%;
+    height: 200px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -40px;
+    left: -77px;
+    color: white;
+}
+.text7 hr{
+    width: 20%;
+    height: 2px;
+    background-color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 68px;
+    left: 6px;
+}
+.text8{
+    position: relative;
+}
+.text8 h2{
+    transform: rotate(90deg);
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: -44px;
+}

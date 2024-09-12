@@ -1,0 +1,629 @@
+* {
+    margin: 0px;
+    height: 0px;
+}
+
+.main {
+    /* background-color: red; */
+    height: 700px;
+    width: 100%;
+}
+
+.contain {
+    height: 600px;
+    width: 100%;
+
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.set1 {
+    height: 50px;
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.set11 h5 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(87, 182, 211);
+}
+
+.set11 {
+    height: 40px;
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.set2 {
+    height: 50px;
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.parent {
+    width: 70%;
+    height: 50px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.box1 {
+    text-align: center;
+    width: 15%;
+    height: 30px;
+
+    /* background-color: blueviolet; */
+}
+
+.box1:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.box2 {
+    width: 15%;
+    height: 30px;
+
+    /* background-color: palegreen; */
+}
+
+.box2:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.box3 {
+    width: 15%;
+    height: 30px;
+
+    /* background-color: blueviolet; */
+}
+
+.box3:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.box4 {
+    width: 15%;
+    height: 30px;
+
+    /* background-color: green; */
+}
+
+.box4:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.box5 {
+    height: 30px;
+    width: 15%;
+    /* background-color: blueviolet; */
+}
+
+.box5:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.box6 {
+
+    height: 30px;
+    width: 15%;
+    /* background-color: red; */
+}
+
+.box6:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.setbox {
+    height: 100%;
+    width: 100%;
+    background-image: url(./sea2.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    opacity: 0.4;
+    position: relative;
+
+}
+
+.control {
+    position: relative;
+}
+
+.font {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 267px;
+    left: 0px;
+
+}
+
+.i {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    font-size: 24px;
+    color: black;
+}
+
+.font1 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 267px;
+    left: 1298px;
+}
+
+.r {
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 14px;
+    left: 17px;
+    font-size: 24px;
+    color: black;
+}
+
+.set3 {
+    height: 30px;
+    width: 50%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 263px;
+    left: 526px;
+
+
+}
+
+.set3 h2 {
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.text1 {
+    position: absolute;
+    top: 304px;
+    left: 541px;
+    height: 50px;
+    width: 50%;
+    color: white;
+}
+
+.text2 {
+    color: white;
+    position: absolute;
+    top: 328px;
+    left: 611px;
+    height: 50px;
+    width: 50%;
+}
+
+.set4 {
+    width: 40%;
+    height: 30px;
+    position: relative;
+
+}
+
+.set41 {
+    text-align: center;
+    border: 2px solid white;
+    height: 30px;
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 432px;
+    left: 591px;
+}
+
+.setbox1 {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    /* background-color: blueviolet; */
+    height: 250px;
+    width: 80%;
+    display: flex;
+
+}
+
+.list1 {
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    flex: 1;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+
+.c {
+
+    position: absolute;
+    top: 11px;
+    left: 96px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+}
+
+.c1 {
+    height: 70px;
+    width: 100%;
+    /* background-color: orange; */
+
+}
+
+.img {
+    color: aquamarine;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.c2 {
+    height: 110px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+align-items: center; */
+    position: absolute;
+
+}
+
+.c21 {
+    height: 20px;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.c22 {
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.c23 {
+    position: absolute;
+    top: 63px;
+    left: 44px;
+}
+
+.c3 {
+    height: 70px;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* position: relative; */
+}
+
+.bt1 {
+    width: 30%;
+    height: 30px;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+
+.bt1 button {
+    position: absolute;
+    top: 125px;
+    left: 84px;
+    width: 111%;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.list2 {
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    flex: 1;
+    /* background-color: palegreen; */
+    /* position: relative; */
+
+}
+
+/*  */
+/* */
+/**/
+.c4 {
+    height: 70px;
+    width: 100%;
+    /* background-color: orange; */
+    position: relative;
+
+}
+
+A {
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+
+.img2 {
+    color: aquamarine;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.c5 {
+    height: 110px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+align-items: center; */
+    position: absolute;
+
+}
+
+.c51 {
+    height: 20px;
+    width: 20%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+.c52 {
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.c53 {
+    position: absolute;
+    top: 63px;
+    left: 44px;
+}
+
+.c6 {
+    height: 70px;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* position: relative; */
+}
+
+.bt2 {
+    width: 30%;
+    height: 30px;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+
+.bt2 button {
+    position: absolute;
+    top: 125px;
+    left: 84px;
+    width: 111%;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.list3 {
+
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    flex: 1;
+    /* position: relative; */
+    /* background-color: palegreen; */
+}
+
+.c7 {
+    height: 70px;
+    width: 100%;
+    /* background-color: orange; */
+    position: relative;
+}
+
+B {
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+}
+
+
+
+
+.img3 {
+    color: aquamarine;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.c8 {
+    height: 110px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+align-items: center; */
+    position: absolute;
+
+}
+
+.c81 {
+    height: 20px;
+    width: 20%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+.c82 {
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.c83 {
+    position: absolute;
+    top: 63px;
+    left: 44px;
+}
+
+.c9 {
+    height: 70px;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* position: relative; */
+}
+
+.bt3 {
+    width: 30%;
+    height: 30px;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+
+.bt3 button {
+    position: absolute;
+    top: 125px;
+    left: 84px;
+    width: 111%;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.list4 {
+
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    flex: 1;
+    /* position: relative; */
+    /* background-color: palegreen; */
+}
+
+.C {
+
+    position: absolute;
+    top: 690px;
+    left: 1049px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+}
+
+.c10 {
+    height: 70px;
+    width: 100%;
+    /* background-color: orange; */
+
+}
+
+.img4 {
+    color: aquamarine;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.c11 {
+    height: 110px;
+    width: 100%;
+    /* background-color: blue; */
+    /* display: flex;
+align-items: center; */
+    position: absolute;
+
+}
+
+.c111 {
+    height: 20px;
+    width: 20%;
+    /* background-color: red; */
+    text-align: center;
+
+}
+
+.c112 {
+    position: relative;
+    top: 4px;
+    left: 12px;
+}
+
+.c113 {
+    position: absolute;
+    top: 63px;
+    left: 44px;
+}
+
+.c12 {
+    height: 70px;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* position: relative; */
+}
+
+.bt4 {
+    width: 30%;
+    height: 30px;
+    /* background-color: aquamarine; */
+    position: relative;
+
+}
+
+.bt4 button {
+    position: absolute;
+    top: 125px;
+    left: 84px;
+    width: 111%;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.setbox2{
+    height: 200px;
+    width: 100%;
+    background-color: orangered;
+}

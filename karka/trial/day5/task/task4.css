@@ -1,0 +1,33 @@
+body{
+border: 2px solid black;
+}
+header{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+}
+.firstbox2{
+    height: 300px;
+    width: 20%;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.firstbox3{
+    height: 300px;
+    width: 79%;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+    
+footer{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+}

@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    
+} */
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.parent {
+    height: 300px;
+    width: 60%;
+    /* background-color: orange; */
+    display: flex;
+
+}
+
+.child1 {
+    width: 30%;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+.setbox1 {
+    display: flex;
+}
+
+.box1 {
+    border-right: 2px solid white;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+
+    /* background-color: brown; */
+}
+
+.box1 h4 {
+    padding: 10px;
+    color: white;
+}
+
+.box2 {
+padding: 10px;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    /* background-color: blueviolet; */
+}
+.box2 h4{
+    color: white;
+}
+
+.box21 h5 {
+    
+    color: black;
+}
+
+.box3 {
+    padding: 3px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    /* background-color: aqua; */
+    position: relative;
+
+}
+
+.num {
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    /* background-color: orangered; */
+
+}
+
+.num h1 {
+
+    font-size: 100px;
+    color: white;
+}
+
+.box4 {
+    /* border-top: 2px solid white; */
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    top: 48px;
+    left: 145px;
+    /* background-color: aqua; */
+}
+
+.box4 hr {
+    width: 37%;
+    height: 1px;
+    background-color: white;
+    top: 50px;
+    left: 138px;
+    /* height: 50px; */
+}
+
+.box4 h3 {
+    /* margin: 20px; */
+    padding: 4px;
+    font-size: 11px;
+}
+
+.child2 {
+    height: 200px;
+    width: 40%;
+    background-color: white;
+    /* display: flex; */
+}
+
+
+.groups {
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    /* display: flex */
+}
+
+.setbox2 {
+    height: 130px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.box5 {
+    width: 70%;
+    height: 100px;
+    /* background-color: brown; */
+    text-align: center;
+    text-align: center;
+
+}
+
+.box5 h2 {
+    padding: 5px;
+    font-size: 55px;
+
+}
+
+.box6 {
+    width: 30%;
+    height: 100px;
+    /* background-color: yellowgreen; */
+    text-align: center;
+
+}
+
+.box6 h3 {
+    padding: 20px;
+    font-size: 30px;
+    color: red;
+}
+
+.groups2 {
+    width: 100%;
+    height: 50px;
+    /* background-color: orangered; */
+    display: flex;
+
+}
+
+.set {
+    padding: 6px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.set1 {
+    width: 25%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    /* border-top: 2px solid brown; */
+}
+
+.set1 hr {
+    height: 2px;
+    width: 20%;
+    background-color: brown;
+}
+
+.set2 {
+    width: 30%;
+    height: 50px;
+    /* background-color:blue; */
+    /* border-top: 2px solid brown; */
+}
+
+.set2 hr {
+    height: 2px;
+    width: 30%;
+    background-color: brown;
+
+}
+
+.set3 {
+    width: 40%;
+    height: 50px;
+    /* background-color: green; */
+    /* border-top: 2px solid brown; */
+}
+
+.set hr {
+    height: 3px;
+    width: 70%;
+    background-color: brown;
+}
+
+.child3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 134px;
+    left: 494px;
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+.child4 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 352px;
+    left: 493px;
+    background-color: red;
+    transform: rotate(45deg);
+}

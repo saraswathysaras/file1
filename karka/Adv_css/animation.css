@@ -1,0 +1,16 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.box {
+    height: 200px;
+    width: 40%;
+    background-color: yellow;
+    animation: rotate 1s linear infinite;
+}

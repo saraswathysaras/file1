@@ -1,0 +1,78 @@
+.main {
+    /* background-color: red; */
+
+    width: 70%;
+
+
+}
+
+header {
+    height: 60px;
+    margin: 2px;
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+nav {
+    height: 60px;
+    margin: 2px;
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.groups {
+    height: 160px;
+}
+
+main {
+    margin: 0px 0px 2px 2px;
+    width: 50%;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.setbox {
+    display: inline-block;
+    width: 49%;
+}
+
+.setbox aside {
+
+    margin: 0px 2px 2px 0px;
+    background-color: gray;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+}
+
+.setbox section {
+    margin: 0px 2px 2px 0px;
+    background-color: gray;
+    height: 79px;
+    line-height: 79px;
+    text-align: center;
+}
+
+aside{
+    
+    height: 60px;
+    margin: 2px;
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+}
+footer{
+    height: 60px;
+    margin: 2px;
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+}

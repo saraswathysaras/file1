@@ -1,0 +1,42 @@
+.main{
+    border: 5px solid green;
+}
+header{
+    margin: 5px;
+    background-color: lightblue;
+    height:50px;
+}
+.contain{
+    background-color: lightblue;
+    margin: 5px;
+    height: 100px;
+    display: inline-block;
+    
+}
+.manu{
+    background-color: lightblue;
+    height: 100px;
+    margin: 5px;
+} 
+.contain2{
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+
+    
+}
+.contain2 main{
+    background-color:lightblue ;
+
+
+
+}
+.contain2 right{
+    background-color: lightblue;
+    margin: 5px;
+}
+footer{
+    background-color: lightblue;
+    width: 50%;
+}
